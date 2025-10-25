@@ -1,0 +1,21 @@
+{
+  "name": "loom-and-luxe-website",
+  "short_name": "Loom & Luxe",
+  "description": "Premium African fabrics with luxury quality at affordable prices",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F3EF",
+  "theme_color": "#FF6B5E",
+  "icons": [
+    {
+      "src": "assets/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary folders
+tmp/
+temp/
+
+# Unused asset files (keep only the ones used in the website)
+# Based on the current website, we're using:
+# - model one pose one.jpg (hero image)
+# - model one pose two.jpg (about image)
+# - fabric A1.jpg, fabric B2.jpg, fabric C1.jpg, fabric D5.jpg, fabric D9.jpg, fabric E6.jpg, fabric F3.jpg, fabric F6.jpg, fabric G2.jpg, fabric G6.jpg, fabric H5.jpg, fabric I2.jpg (product images)
+# - image of logo on bag.jpg (logo/social sharing)
+
+# Exclude unused fabric images
+assets/fabric A2.jpg
+assets/fabric A3.jpg
+assets/fabric A4.jpg
+assets/fabric A5.jpg
+assets/fabric A6.jpg
+assets/fabric A7.jpg
+assets/fabric A8.jpg
+assets/fabric A9.jpg
+assets/fabric A10.jpg
+assets/fabric B1.jpg
+assets/fabric B3.jpg
+assets/fabric B4.jpg
+assets/fabric C2.jpg
+assets/fabric C3.jpg
+assets/fabric C4.jpg
+assets/fabric C5.jpg
+assets/fabric C6.jpg
+assets/fabric D1.jpg
+assets/fabric D2.jpg
+assets/fabric D3.jpg
+assets/fabric D4.jpg
+assets/fabric D6.jpg
+assets/fabric D7.jpg
+assets/fabric D8.jpg
+assets/fabric E1.jpg
+assets/fabric E2.jpg
+assets/fabric E3.jpg
+assets/fabric E4.jpg
+assets/fabric E5.jpg
+assets/fabric E7.jpg
+assets/fabric E8.jpg
+assets/fabric F1.jpg
+assets/fabric F2.jpg
+assets/fabric F4.jpg
+assets/fabric F5.jpg
+assets/fabric G1.jpg
+assets/fabric G3.jpg
+assets/fabric G4.jpg
+assets/fabric G5.jpg
+assets/fabric H1.jpg
+assets/fabric H2.jpg
+assets/fabric H3.jpg
+assets/fabric H4.jpg
+assets/fabric H6.jpg
+assets/fabric H7.jpg
+assets/fabric H8.jpg
+assets/fabric I1.jpg
+assets/fabric I3.jpg
+assets/fabric I4.jpg
+
+# Exclude unused model images
+assets/model one pose three.jpg
+assets/model one pose four.jpg
+
+# Exclude unused mannequin images
+assets/mannequin waist fabric 1.jpg
+assets/mannequin waist fabric 2.jpg
+assets/mannequin waist fabric 3.jpg
+assets/mannequin waist fabric 4.jpg
+assets/mannequin waist fabric 5.jpg
+assets/mannequin waist fabric 6.jpg
+assets/mannequin waist fabric 7.jpg
+assets/mannequin waist fabric 8.jpg
+assets/mannequin waist fabric 9.jpg
+
+# Exclude any backup or duplicate files
+assets/*_backup.*
+assets/*_copy.*
+assets/*_old.*
+assets/*_temp.*
+
+# Exclude any development or test images
+assets/dev_*
+assets/test_*
+assets/draft_*
+
+# Netlify
+.netlify/
+
+# Git
+.git/
